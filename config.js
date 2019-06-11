@@ -49,7 +49,7 @@ module.exports = function () {
     'fred': {
       // Fred Data provider
       'dataPath': [
-        'http://localhost/highq/htdocs/proxy.php?url=https://fredbackend.ffmsl.de/api/v1/networks&method=get'
+        'https://fredbackend.ffmsl.de/api/v1/networks'
       ],
       'minZoom': 8
     },
