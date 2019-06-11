@@ -46,10 +46,13 @@ module.exports = function () {
     'dataPath': [
       'https://regensburg.freifunk.net/data/'
     ],
-    // Fred Data provider
-    'fredDataPath': [
-      'http://localhost/highq/htdocs/proxy.php?url=https://fredbackend.ffmsl.de/api/v1/networks&method=get'
-    ],
+    'fred': {
+      // Fred Data provider
+      'dataPath': [
+        'http://localhost/highq/htdocs/proxy.php?url=https://fredbackend.ffmsl.de/api/v1/networks&method=get'
+      ],
+      'minZoom': 8
+    },
     'siteName': 'Freifunk Regensburg',
     'mapLayers': [
       {

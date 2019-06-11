@@ -128,6 +128,17 @@ module.exports = function () {
       'new': {
         'color': '#1566A9',
         'fillColor': '#93E929'
+      },
+      'fred': {
+        'base': {
+          'fillOpacity': 0.6,
+          'opacity': 0.6,
+          'weight': 2,
+          'radius': 4,
+          'className': 'stroke-first',
+          'color': '#DC0067',
+          'fillColor': '#FFB400'
+        }
       }
     },
     'client': {
